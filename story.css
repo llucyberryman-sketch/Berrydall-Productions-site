@@ -1,0 +1,15 @@
+header{
+    background-color:goldenrod;
+    font-weight: 900;
+    font-size: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.story{
+    padding:30px;
+}
+.container{
+    display:flex;
+    align-items: center;
+}

@@ -1,0 +1,249 @@
+ body {
+   display: flex;
+   font-family: Roboto, sans-serif;
+   flex-wrap: wrap;
+   flex-direction: row;
+   margin: 0;
+   padding:0;
+   width:100%;
+   height:100%;
+   overflow-x: hidden;
+ }
+
+ .small-images {
+   height: 100px;
+   border-radius: 5px;
+
+ }
+
+ header {
+   background-image: url(images/vt-front.png);
+   background-position: 25% 30%;
+   background-size: cover;
+   background-repeat: no repeat;
+   margin: 0px;
+   display: flex;
+   align-items: center;
+   font-size: 32px;
+   font-weight: 900;
+   flex-direction: column;
+ }
+
+
+ .underhead {
+   background-color: #1f2937;
+   margin: 0px;
+   flex-wrap: wrap;
+   display: flex;
+ }
+
+ .left {
+   
+   width: 100%;
+
+ }
+
+ .logo {
+   color: #060606;
+   font-size: 100px;
+   font-weight: bold;
+
+ }
+
+ .links {
+   color: #000000;
+   font-size: 18px;
+   color: #000000;
+   font-weight: 900;
+   text-decoration: none;
+ }
+
+ .other {
+   color: #000000;
+   font-size: 18px;
+
+
+   font-weight: 900;
+ }
+
+ .h1 {
+   color: #000000;
+   font-size: 48px;
+   font-weight: 900;
+   text-wrap: wrap;
+ }
+
+ .topline {
+   display: flex;
+   align-items: center;
+   font-size: 32px;
+   font-weight: 900;
+   justify-content: space-between;
+   width: 90%;
+
+ }
+
+ ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: space-between;
+   gap: 40px;
+ }
+
+ .white-section {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   text-align: center;
+   width: 100%;
+ }
+
+ a {
+   text-decoration: none;
+   color:#000000;
+   font-size: 18px;
+
+
+ }
+
+ button {
+   background-color: #3882f6;
+   border-radius: 10px;
+   border: black;
+   margin: 5%;
+   margin-left: 0;
+   flex: 1;
+   padding: 10px;
+   
+ }
+
+ .imgtext {
+   width: 100px;
+   flex-direction: row;
+   font-size: 12px;
+   flex-wrap: wrap;
+ }
+
+ .center {
+   font-size: 36px;
+   color: #1f2937;
+   font-weight: 900;
+   text-align: center;
+   margin: 30px;
+   width: 100%;
+ }
+
+ .bottom {
+   justify-content: space-between;
+   align-content: space-between;
+   width: 50%;
+ }
+
+ .info {
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+ .quote {
+   background-color: #e5e7eb;
+   font-size: 36px;
+   font-weight: lighter;
+   padding: 90px;
+   
+ }
+
+
+ .action {
+   color: white;
+   /* padding: 50px; */
+   text-align: left;
+   border-radius: 20px;
+   flex: 5;
+   
+ }
+
+ #strong {
+   font-weight: 900;
+   font-size: 26px;
+
+ }
+
+ .under {
+   display: flex;
+   gap: 50px;
+   
+   padding: 0 16px;
+   font-size: 32px;
+   font-weight: 900;
+   justify-content: space-between;
+   width: 90%;
+   margin-bottom: 30px;
+ }
+
+ .sign-up {
+   border-radius: 5px;
+   border: 2px solid white;
+   color: white;
+   padding: 5px;
+   width: 50px;
+   height: 30px;
+   
+
+
+ }
+
+ .set {
+   margin: 40px;
+   width: 200px;
+ }
+
+ .big-image {
+   width: 50%;
+   text-align: center;
+
+
+ }
+
+ .big-image>img {
+   
+   height: auto;
+   width: 400px;
+ }
+
+ 
+
+ .set > img {
+  width :300px;
+  height: auto;
+ }
+ .words {
+   font-size: 12px;
+   padding-top: 10px;
+ }
+ .words2 {
+   
+   font-size: 17px;
+   font-weight:bold ;
+ }
+
+ .bold {
+   font-weight: 900;
+   margin-bottom: 5px;
+ }
+
+ footer {
+   background-color: #1f2937;
+   color: #e5e7eb;
+   text-align: center;
+   width: 100%;
+   padding: 30px;
+   font-family: roboto, sans-serif;
+ }
+
+ strong {
+   font-size: 20px;
+ }
+  
